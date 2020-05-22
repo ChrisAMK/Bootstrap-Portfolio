@@ -26,6 +26,10 @@ body {
   padding: 0 15px;
 }
 
+#fstack {
+  margin-top: -15px;
+}
+
 #contact-box {
   background-color: rgb(255, 231, 231);
   margin-top: 35px;
