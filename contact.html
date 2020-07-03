@@ -24,21 +24,21 @@
     <main class="d-flex flex-column h-100">
         <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" id="navigation">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="img/chrislogo.png" class="afslogo"
-                        alt="Logo photo"></a>
+                <a class="navbar-brand" href="index.html"><img src="img/Cheds.png" class="cheds" alt="Logo photo"
+                        title="Click to go to Homepage"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" title="Click to go to Homepage">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html" title="Click to go to Portfolio">Portfolio</a>
+                        </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.html" title="Click to go to Contact Page">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -49,9 +49,9 @@
         <section class="container-fluid padding">
             <div class="row padding">
 
-                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-9" id="contact-box">
+                <div class="col-12" id="contact-box">
 
-                    <h1>Contact</h1>
+                    <h1 class="aboutme">Contact</h1>
                     <hr>
                     <p>All information is kept in secrecy</p>
                     <form>
@@ -70,8 +70,6 @@
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
-                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-                </div>
 
                 <hr class="my-4">
             </div>
@@ -81,7 +79,7 @@
 
         <!--   Socials  -->
         <section class="container-fluid padding">
-            <div class="row text-center padding">
+            <div class="row text-center padding aboutme" style="margin-right: 10px; margin-left: 10px;">
                 <div class="col-12">
                     <h2>Connect</h2>
                 </div>
@@ -101,7 +99,7 @@
 
     <footer class="footer">
         <div class="container">
-            <span class="text-muted" id="footertext">Chris Klinger &copy;</span>
+            <span class="text-muted" id="footertext">Chris Klinger Enterprises &copy;</span>
         </div>
     </footer>
 </body>
